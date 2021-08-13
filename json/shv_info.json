@@ -1,1 +1,14 @@
-
+{
+  "firstName": "Sivashankar",
+  "secondName": "Palraj",
+  "dob": {"yyyy": 1990,"mm": 07,"dd": 15},
+  "address": {
+    "c_add": {"street": "Flat 2, 60, Rowlands Rd", "town": "Worthing", "city": "West Sussex", "country": "United Kingdom", "pin":"BN11 3JU"},
+    "p_add": {"street": "222, Bazzer St", "town": "Periyapalayam", "city": "Chennai", "state": "Tamil Nadu", "country": "India", "pin":"601102"},
+    "o_add": {"street": "61 W Coast Way", "country": "Singapore", "pin":"127 020"}
+  },
+  "email": {"formal":"sivashankaryadav@outlook.com", "casual":"sivakorea@gmail.com", "personal":"passwardstrength@gmail.com"},
+  "skype": "live:sivashankaryadav",
+  "web": "sivashankaruav.github.io"
+  "lin": "https://www.linkedin.com/in/sivashankaryadav/"
+}
