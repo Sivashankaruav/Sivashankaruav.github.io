@@ -1,0 +1,48 @@
+{
+  "_comment": "Global site configuration: navigation, theme registry, and serverless integrations. Edit this file to change structure/behaviour without touching personal data.",
+  "meta": {
+    "title": "Sivashankar Palraj | Engineering Lead — Embedded Systems, Autonomy & IoT",
+    "description": "Portfolio of Sivashankar Palraj, an engineering lead specialising in embedded systems, ultra-low-power IoT and autonomous robotics.",
+    "favicon": "img/icon.png"
+  },
+  "theme": {
+    "active": "classic",
+    "available": [
+      { "id": "classic", "label": "Classic", "file": "assets/css/themes/classic.css" },
+      { "id": "midnight", "label": "Midnight", "file": "assets/css/themes/midnight.css" }
+    ]
+  },
+  "nav": [
+    { "id": "home", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "thirukural", "label": "Thirukural" },
+    { "id": "testimonials", "label": "Testimonials" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "integrations": {
+    "_comment": "All integrations are free-tier, serverless, client-side services. Set enabled=true after creating your own account/endpoint so no secrets ever need to live in this repo.",
+    "contactForm": {
+      "provider": "formspree",
+      "enabled": false,
+      "endpoint": "https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID",
+      "fallbackMailto": "sivashankaryadav@outlook.com",
+      "instructions": "Create a free form at https://formspree.io (no card required), copy the form endpoint URL, paste it above and set enabled=true."
+    },
+    "testimonialForm": {
+      "provider": "formspree",
+      "enabled": false,
+      "endpoint": "https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID",
+      "fallbackMailto": "sivashankaryadav@outlook.com",
+      "instructions": "Use a second free Formspree form (or reuse the contact one) so testimonial submissions land in your inbox for review before you add them to data/testimonials.json."
+    },
+    "hitCounter": {
+      "provider": "hits.seeyoufarm",
+      "enabled": true,
+      "targetUrl": "https://sivashankaruav.github.io",
+      "instructions": "Free badge-based hit counter, no signup needed. Keep targetUrl unchanged to preserve the historical count already accumulated on the old site."
+    }
+  }
+}

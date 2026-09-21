@@ -1,0 +1,41 @@
+{
+  "_comment": "Personal / professional identity data. This is the ONLY file you should need to edit for day-to-day updates to your headline, contact details or summary.",
+  "name": "Sivashankar Palraj",
+  "shortName": "Sivashankar",
+  "title": "Engineering Lead \u2014 Embedded Systems, IoT & Autonomy",
+  "tagline": "Embedded Systems | Ultra-Low-Power IoT | Autonomy & Sensor Fusion",
+  "photo": "img/pp.jpg",
+  "location": {
+    "city": "Worthing",
+    "region": "West Sussex",
+    "country": "United Kingdom",
+    "display": "Worthing, UK"
+  },
+  "contact": {
+    "email": "sivashankaryadav@outlook.com",
+    "phone": "+44 7448 997999",
+    "website": "https://sivashankaruav.github.io"
+  },
+  "social": [
+    { "id": "linkedin", "label": "LinkedIn", "icon": "icon-linkedin", "url": "https://www.linkedin.com/in/sivashankaryadav/" },
+    { "id": "github", "label": "GitHub", "icon": "icon-github", "url": "https://github.com/Sivashankaruav" },
+    { "id": "github-org", "label": "GitHub (9trees)", "icon": "icon-github", "url": "https://github.com/9trees" },
+    { "id": "email", "label": "Email", "icon": "icon-mail", "url": "mailto:sivashankaryadav@outlook.com" }
+  ],
+  "resume": {
+    "file": "assets/files/Sivashankar-Palraj-CV.pdf",
+    "label": "Download CV"
+  },
+  "quote": {
+    "text": "Momentum (\u0b89\u0ba4\u0bcd\u0bb5\u0bc7\u0b95\u0bae\u0bcd) is Mass times Velocity \u2014 the same way Motivation can be stated as Destination times Travel. Preparing for the path is as important as choosing the goal.",
+    "author": "Sivashankar Palraj"
+  },
+  "summary": [
+    "Engineering lead with 10+ years delivering ultra-low-power IoT products, embedded firmware and production-ready PCB prototypes.",
+    "Apply probabilistic modelling, sensor fusion and kinodynamic motion planning to build risk-aware robotic and autonomy systems for complex, dynamic environments.",
+    "Built practical autonomy capabilities \u2014 including multi-sensor calibration and transform extraction \u2014 for autonomous trucking and heavy-UAS applications.",
+    "Design wired and wireless products with EMC and SAR compliance in mind, while improving delivery reliability through CI/CD and RPA automation.",
+    "Currently balancing a lead engineering role with advising an early-stage startup, and actively exploring engineering lead / manager opportunities."
+  ],
+  "privacyNote": "Home address, date of birth and personal messaging handles from the previous version of this site have intentionally been left out of this public profile."
+}

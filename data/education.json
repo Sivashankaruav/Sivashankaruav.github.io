@@ -1,0 +1,18 @@
+{
+  "degrees": [
+    {
+      "degree": "Master of Engineering, VLSI Design",
+      "institution": "Anna University",
+      "location": "Chennai, India",
+      "start": "Sep 2012",
+      "end": "Jun 2014"
+    },
+    {
+      "degree": "Bachelor of Engineering, Electrical Engineering",
+      "institution": "Anna University",
+      "location": "Chennai, India",
+      "start": "Sep 2008",
+      "end": "May 2012"
+    }
+  ]
+}

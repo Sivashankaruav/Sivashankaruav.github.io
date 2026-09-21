@@ -1,0 +1,23 @@
+/*
+  Theme: Midnight
+  An alternate dark, "lead engineer" themed skin, proving the site can be
+  re-designed purely by swapping this file — no HTML/JS/content changes.
+*/
+:root[data-theme="midnight"] {
+  --color-bg: #0f1420;
+  --color-surface: #161d2b;
+  --color-surface-alt: #1c2536;
+  --color-header: #0b0f18;
+  --color-header-alt: #141b28;
+  --color-text: #e7ebf3;
+  --color-text-muted: #a9b3c7;
+  --color-text-soft: #7c8aa5;
+  --color-text-on-dark: #e7ebf3;
+  --color-accent: #4fd1c5;
+  --color-accent-contrast: #08131a;
+  --color-border: #26314a;
+  --font-heading: 'Roboto Slab', 'Georgia', serif;
+  --font-body: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --radius: 10px;
+}

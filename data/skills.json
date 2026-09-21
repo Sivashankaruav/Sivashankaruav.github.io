@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "name": "Autonomy & Robotics",
+      "tags": ["ROS", "RTOS", "Sensor Fusion", "Autopilot Systems", "UAV/UAS", "RTK & VRS GPS", "Computer Vision", "SLAM"]
+    },
+    {
+      "name": "Embedded & Hardware",
+      "tags": ["C (optimised)", "C++", "VHDL", "FPGA", "MSP430", "ARM Cortex-M", "Serial Interfaces", "Wi-Fi", "BLE 5.0", "CAN \u2013 J1939", "Ultra-Low Power Design"]
+    },
+    {
+      "name": "Software & DevOps",
+      "tags": ["Python", "Django", "JavaScript", "Git", "CI/CD", "DevOps", "RPA", "MATLAB"]
+    },
+    {
+      "name": "Leadership & Process",
+      "tags": ["Team Leadership", "Project Management", "Requirement Analysis", "Technical Write-ups", "Digital Documentation", "Safety Standards (EMC/SAR)"]
+    }
+  ],
+  "languages": [
+    { "name": "Tamil", "level": 5 },
+    { "name": "English", "level": 5 },
+    { "name": "Telugu", "level": 3 },
+    { "name": "Hindi", "level": 3 },
+    { "name": "Korean", "level": 2 }
+  ],
+  "interests": [
+    { "name": "UAVs & Robotics", "icon": "icon-paper-plane" },
+    { "name": "Mathematics", "icon": "icon-globe-6" },
+    { "name": "Yoga", "icon": "icon-music-4" },
+    { "name": "Nature & Planting", "icon": "icon-tree-2" }
+  ]
+}

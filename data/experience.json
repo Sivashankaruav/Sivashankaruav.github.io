@@ -1,0 +1,60 @@
+{
+  "_comment": "Reverse-chronological work history. 'current': true marks the ongoing role.",
+  "roles": [
+    {
+      "title": "Lead Electronic Design Engineer",
+      "company": "Electronic Temperature Instruments Ltd",
+      "companyUrl": "https://www.etiltd.com",
+      "location": "Worthing, UK",
+      "start": "Sep 2020",
+      "end": "Present",
+      "current": true,
+      "bullets": [
+        "Lead the design and optimisation of ultra-low-power IoT devices, integrating embedded products with cloud APIs.",
+        "Develop RTOS-based firmware for Wi-Fi data loggers and Bluetooth Low Energy (BLE) IoT devices.",
+        "Own EMC/SAR-compliant hardware design decisions and mentor junior engineers on wired and wireless product development.",
+        "Drive delivery reliability improvements through CI/CD pipelines and RPA-based process automation."
+      ]
+    },
+    {
+      "title": "Senior Autonomy Engineer",
+      "company": "AiDrivers Ltd",
+      "companyUrl": "http://www.aidrivers.ai",
+      "location": "Uxbridge, London",
+      "start": "Jul 2017",
+      "end": "Jul 2020",
+      "current": false,
+      "bullets": [
+        "Developed ROS drivers for sensors, control drives and actuators supporting non-destructive testing (NDT) pose estimation.",
+        "Delivered autonomous mobility, mapping, self-driving and retrofit-localisation capability for heavy vehicles and VTOL platforms.",
+        "Led multi-sensor calibration and transform extraction workstreams for autonomous trucking applications."
+      ]
+    },
+    {
+      "title": "Research Engineer",
+      "company": "ETRI \u2013 MetaRPAS Inc.",
+      "companyUrl": "https://www.etri.re.kr/eng/main/main.etri",
+      "location": "Seoul, South Korea",
+      "start": "Jul 2016",
+      "end": "Jun 2017",
+      "current": false,
+      "bullets": [
+        "Contributed to agricultural UAS, warehouse management systems and AWS-connected solutions.",
+        "Built 3D hologram sky-projection UAS and motor-control algorithms with national research-agency funding."
+      ]
+    },
+    {
+      "title": "Electronics Engineer",
+      "company": "SyklarkDrones Pvt. Ltd.",
+      "companyUrl": "",
+      "location": "Bangalore, India",
+      "start": "Jun 2014",
+      "end": "Jun 2016",
+      "current": false,
+      "bullets": [
+        "Delivered aerial data acquisition and analytics workflows, including point-cloud reconstruction.",
+        "Supported UAV mapping, surveying and autopilot integration across 5,000+ acres for enterprise clients."
+      ]
+    }
+  ]
+}

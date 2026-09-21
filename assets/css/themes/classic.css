@@ -1,0 +1,26 @@
+/*
+  Theme: Classic
+  Recreates the color tones of the original 2019 site: charcoal header/nav,
+  warm yellow accent, light-grey section backgrounds, white cards.
+  Only CSS custom properties live here — no layout rules. Swap this file
+  (see data/site.json -> theme.available) to re-skin the whole site.
+*/
+:root,
+:root[data-theme="classic"] {
+  --color-bg: #eaeaea;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f2f3f4;
+  --color-header: #2a2a2a;
+  --color-header-alt: #3f3f3f;
+  --color-text: #2a2a2a;
+  --color-text-muted: #777777;
+  --color-text-soft: #999999;
+  --color-text-on-dark: #e8e8e8;
+  --color-accent: #ffd42d;
+  --color-accent-contrast: #2a2a2a;
+  --color-border: #dedede;
+  --font-heading: 'Roboto Slab', 'Georgia', serif;
+  --font-body: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  --shadow-card: 0 2px 14px rgba(0, 0, 0, 0.08);
+  --radius: 6px;
+}

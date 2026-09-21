@@ -1,0 +1,63 @@
+{
+  "_comment": "Real project history from field work. 'image' paths intentionally point at the existing /portfolio image assets so photos aren't duplicated in the repo.",
+  "items": [
+    {
+      "title": "First Heavy Drone",
+      "tags": ["Autopilot", "ArduPilot", "Robotics"],
+      "image": "portfolio/IMG_0056.png",
+      "summary": "X8-configuration heavy drone (2x6S LiPo, 8x U12 motors, 32\" props) built on the open-source Pixhawk/ArduPilot stack to validate PID, adaptive-PID and sliding-mode control algorithms with researchers at GIST and KAIST."
+    },
+    {
+      "title": "Agri Drone",
+      "tags": ["Precision Agriculture", "RTK GPS", "AWS"],
+      "image": "portfolio/IMG_0082.png",
+      "summary": "Precision pesticide-spraying drone carrying 20L payload, flying as low as 5m with 5-8cm accuracy. Combined RTK GPS, WMS mapping and multispectral NDVI imagery to auto-adapt spray density and flight height."
+    },
+    {
+      "title": "Design, Fly, Crash, Learn Cycle",
+      "tags": ["Simulation", "ROS", "MATLAB/Simulink"],
+      "image": "portfolio/IMG_0125.png",
+      "summary": "Rapid iteration workflow pairing Matlab-Simulink and open-source ROS/Gazebo/RViz simulation with real field testing to de-risk high-budget UAS development."
+    },
+    {
+      "title": "Holographic 3D Projection on Sky",
+      "tags": ["R&D", "Multi-drone", "Korea Creative Content Agency"],
+      "image": "portfolio/IMG_0167.png",
+      "summary": "Government-funded R&D project flying coordinated drones carrying a screen and laser projector to perform 3D holographic projection at 30m altitude."
+    },
+    {
+      "title": "Prototype-level PCBs",
+      "tags": ["PCB Design", "Eagle/Proteus", "Embedded"],
+      "image": "portfolio/IMG_0540.png",
+      "summary": "Designed and prototyped Arduino/Raspberry Pi shields for motor, I2C, SPI and CAN drivers, RGB indicators and keypad/display holders using Eagle, Proteus and Cadence EDA tooling."
+    },
+    {
+      "title": "VTOL for Sea Ports",
+      "tags": ["VTOL", "Long-range Telemetry", "Logistics"],
+      "image": "portfolio/IMG_1228.png",
+      "summary": "Autonomous fixed-wing/VTOL aircraft transferring ship-clearance documents between vessels and port offices for DP World, Dubai, with a custom parabolic antenna tracker for 7-15km telemetry range."
+    },
+    {
+      "title": "WeGo",
+      "tags": ["Service Robotics", "LiDAR", "Localization"],
+      "image": "portfolio/IMG_1245.png",
+      "summary": "Humanoid-type indoor service rover using a 16-channel LiDAR for localisation, used to greet guests, check appointments and direct visitors at reception."
+    },
+    {
+      "title": "Mega VTOL",
+      "tags": ["Heavy-lift UAV", "Battery Design", "Custom Motors"],
+      "image": "portfolio/IMG_1233.png",
+      "summary": "Prototype heavy-lift VTOL UAV concept for firefighting support and emergency medical transport, including custom battery pack design and bespoke motor specification."
+    },
+    {
+      "title": "Converging Double-Cabin Truck",
+      "tags": ["Autonomous Trucking", "SLAM", "Sensor Fusion"],
+      "image": "portfolio/IMG_2501.png",
+      "summary": "Autonomous heavy-vehicle retrofit combining Radar, LiDAR, ultrasonics, camera, GPS and IMU sensing with SLAM, built on the open-source Autoware stack."
+    }
+  ],
+  "moreLink": {
+    "label": "See more of my field work \u2192",
+    "url": "portfolio/index.html"
+  }
+}
