@@ -163,6 +163,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 .timeline-item ul { margin: 14px 0 0; padding-left: 20px; color: var(--color-text-muted); font-size: 0.92rem; }
 .timeline-item ul li { margin-bottom: 6px; }
+.timeline-item .thesis { margin-top: 10px; color: var(--color-text-muted); font-size: 0.88rem; font-style: italic; }
+
+/* Subjects: hidden by default, revealed as a popover on hover/focus so the
+   timeline card stays compact even for degrees with long subject lists. */
+.edu-subjects { position: relative; display: inline-block; margin-top: 12px; outline: none; }
+.edu-subjects .subjects-trigger {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: var(--color-text-soft);
+  border-bottom: 1px dashed var(--color-text-soft);
+  cursor: help;
+}
+.edu-subjects .subjects-popover {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  z-index: 20;
+  width: 320px;
+  max-width: min(80vw, 320px);
+  max-height: 260px;
+  overflow-y: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  padding: 14px 18px;
+  text-align: left;
+}
+.edu-subjects .subjects-popover ul { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--color-text-muted); }
+.edu-subjects .subjects-popover li { margin-bottom: 5px; }
+.edu-subjects:hover .subjects-popover,
+.edu-subjects:focus .subjects-popover,
+.edu-subjects:focus-within .subjects-popover { display: block; }
 .badge-current { margin-left: 8px; font-size: 0.65rem; background: var(--color-header); color: var(--color-accent); padding: 2px 8px; border-radius: 999px; }
 
 /* ---------- Skills ---------- */

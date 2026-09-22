@@ -13,6 +13,14 @@ function roleCard(role) {
   ]);
 }
 
+function subjectsToggle(edu) {
+  if (!edu.subjects || edu.subjects.length === 0) return null;
+  return el('div', { class: 'edu-subjects', tabindex: '0' }, [
+    el('span', { class: 'subjects-trigger' }, `Subjects (${edu.subjects.length})`),
+    el('div', { class: 'subjects-popover' }, el('ul', {}, edu.subjects.map((s) => el('li', {}, s)))),
+  ]);
+}
+
 function eduCard(edu) {
   return el('div', { class: 'timeline-item' }, [
     el('div', { class: 'role-line' }, [
@@ -20,6 +28,8 @@ function eduCard(edu) {
       el('span', { class: 'dates' }, `${edu.start} – ${edu.end}`),
     ]),
     el('div', { class: 'company' }, `${edu.institution} · ${edu.location}`),
+    subjectsToggle(edu),
+    el('div', { class: 'thesis' }, edu.thesis ? [`Thesis: ${edu.thesis}`] : []),
   ]);
 }
 
