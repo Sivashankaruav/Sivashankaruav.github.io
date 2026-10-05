@@ -30,6 +30,11 @@ the folder over `http://` (e.g. `python -m http.server`) rather than opening
 `index.html` directly via `file://` when testing locally. GitHub Pages
 already serves it correctly.
 
+The Thirukural section displays a Tamil explanation from `json/kural.json`
+(`mv`, falling back to `sp` or `mk`) alongside the existing English explanation.
+The About section no longer displays the internal privacy note; personal
+content in `data/profile.json` remains unchanged.
+
 ## 2. Switching or adding a design theme
 
 The whole visual identity (colors, fonts, radii, shadows) lives in small
