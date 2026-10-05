@@ -1,4 +1,20 @@
 {
   "_comment": "No fabricated testimonials are included. Add real ones here as { \"name\":..., \"role\":..., \"quote\":... } once received (e.g. via the testimonial form in data/site.json). The UI shows a friendly empty-state until then.",
-  "items": []
+  "items": [
+    {
+      "name": "Jagadeesh Kumar",
+      "role": "Hardware Engineer at ZF Group",
+      "quote": "One of the finest teacher, friend, colleague and senior I ever got to work with. His timely delivery of solutions and his excellence in technical knowledge, has made me personally learn a lot from him. All the best for your future and have a never ending knowledge thirst as always!"
+    },
+    {
+      "name": "Anitha Ramesh",
+      "role": "Software Engineer at Infosys",
+      "quote": "Sivashankar is an exceptional mentor and team lead. His guidance and technical expertise have significantly contributed to my professional growth. Working with him has been a truly enriching experience."
+    },
+    {
+      "name": "Vinayagamurthy Ganesan",
+      "role": "Professor at VIT University",
+      "quote": "Sivashankar was introduced to me in the year 2013, as a researcher at IRTDC with strong capabilities in developing UAV's. And he has worked with me in our laboratory at VIT and IRTDC as a researcher. He is an highly motivated outstanding researcher, who has got deeper understanding of systems engineering. He had worked with me on many projects such as development of UAV for monitoring purposes, UAV for measuring atmospheric conditions, energy harvesting from wind induced vibrations and so on.. All through the days, I have notified his passion to deliver his best for the industry."
+    }
+  ]
 }
