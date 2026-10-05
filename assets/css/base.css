@@ -281,6 +281,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
 }
 .contact-form .form-note { font-size: 0.75rem; color: var(--color-text-soft); margin-top: -8px; margin-bottom: 16px; }
+.contact-form .form-status { color: var(--color-text); margin: 16px 0; }
+.contact-form button:disabled { opacity: 0.65; cursor: wait; }
+.testimonial-submission { max-width: 520px; margin: 24px auto 0; }
+.testimonial-submission summary { cursor: pointer; }
+.testimonial-submission .contact-form { margin-top: 20px; text-align: left; }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--color-header); color: var(--color-text-soft); padding: 32px 0; text-align: center; font-size: 0.82rem; }

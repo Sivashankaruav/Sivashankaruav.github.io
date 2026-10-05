@@ -16,7 +16,7 @@ function roleCard(role) {
 function subjectsToggle(edu) {
   if (!edu.subjects || edu.subjects.length === 0) return null;
   return el('div', { class: 'edu-subjects', tabindex: '0' }, [
-    el('span', { class: 'subjects-trigger' }, `Subjects (${edu.subjects.length})`),
+    el('span', { class: 'subjects-trigger' }, `Educated (${edu.subjects.length})`),
     el('div', { class: 'subjects-popover' }, el('ul', {}, edu.subjects.map((s) => el('li', {}, s)))),
   ]);
 }
@@ -29,7 +29,15 @@ function eduCard(edu) {
     ]),
     el('div', { class: 'company' }, `${edu.institution} · ${edu.location}`),
     subjectsToggle(edu),
-    el('div', { class: 'thesis' }, edu.thesis ? [`Thesis: ${edu.thesis}`] : []),
+    el('div', { class: 'thesis' }, edu.thesis ? [
+      'Thesis: ',
+      edu.thesisUrl ? el('a', { href: edu.thesisUrl, target: '_blank', rel: 'noopener' }, edu.thesis) : edu.thesis
+    ] : []),
+    // with thises advisor and his url
+    el('div', { class: 'advisor' }, edu.advisor ? [
+      'Advisor: ',
+      edu.advisorUrl ? el('a', { href: edu.advisorUrl, target: '_blank', rel: 'noopener' }, edu.advisor) : edu.advisor
+    ] : []),
   ]);
 }
 

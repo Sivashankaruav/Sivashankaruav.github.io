@@ -56,8 +56,8 @@ No HTML, JS or content changes are ever required to add/switch a theme.
 Configured centrally in `data/site.json -> integrations`:
 
 - **Contact form** (`contactForm`) — uses [Formspree](https://formspree.io)
-  (free tier, no credit card). Currently `enabled: false`, so the Contact
-  section shows a plain "email me" button. To activate:
+  (free tier, no credit card). Currently enabled with your configured endpoint.
+  To configure a different form:
   1. Create a free form at formspree.io and copy its endpoint URL.
   2. Paste it into `integrations.contactForm.endpoint`.
   3. Set `integrations.contactForm.enabled` to `true`.
@@ -67,9 +67,17 @@ Configured centrally in `data/site.json -> integrations`:
   ```json
   { "name": "Jane Doe", "role": "Engineering Manager, Acme", "quote": "..." }
   ```
-- **Hit counter** (`hitCounter`) — reuses the existing free
-  `hits.seeyoufarm.com` badge tracked against the same URL as the old site,
-  so historical hit count is preserved.
+- Both forms submit via POST with a JSON response, show accessible delivery
+  feedback, prevent duplicate pending submissions, and keep entered text on
+  failure. Testimonials can be submitted even when existing reviews are shown;
+  they remain unpublished until you manually add them to the JSON content.
+  Email links remain available if delivery fails. Check the Formspree dashboard
+  for recipient verification, domain restrictions and free-tier quota.
+- **Hit counter** (`hitCounter`) — currently disabled because Formspree is not
+  a visitor-counter service. The existing renderer uses a `hits.seeyoufarm.com`
+  badge; to use it, set `provider: "seeyoufarm"`, set `targetUrl` to your
+  public portfolio URL and enable it only after checking service availability.
+  Do not send automatic page-view submissions to Formspree.
 
 ## 4. File map
 

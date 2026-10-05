@@ -6,15 +6,22 @@
     },
     {
       "name": "Embedded & Hardware",
-      "tags": ["C (optimised)", "C++", "VHDL", "FPGA", "MSP430", "ARM Cortex-M", "Serial Interfaces", "Wi-Fi", "BLE 5.0", "CAN \u2013 J1939", "Ultra-Low Power Design"]
+      "tags": ["C (optimised)", "C++", "VHDL", "Verilog", "FPGA", "MSP430", "ARM Cortex-M", "Serial Interfaces", "Wi-Fi", 
+      "BLE 5.0", "CAN \u2013 J1939", "Ultra-Low Power Design"]
     },
     {
       "name": "Software & DevOps",
-      "tags": ["Python", "Django", "JavaScript", "Git", "CI/CD", "DevOps", "RPA", "MATLAB"]
+      "tags": ["Python", "Django", "JavaScript", "Git", "CI/CD", "DevOps", "RPA", "MATLAB", "Azure", "Docker"]
     },
     {
       "name": "Leadership & Process",
-      "tags": ["Team Leadership", "Project Management", "Requirement Analysis", "Technical Write-ups", "Digital Documentation", "Safety Standards (EMC/SAR)"]
+      "tags": ["Team Leadership", "Project Management", "Requirement Analysis", "Technical Write-ups", 
+      "Digital Documentation", "Safety Standards (EMC/SAR)"]
+    },
+    {
+      "name": "Ai & LLMs",
+      "tags": ["Prompt Engineering", "Fine-tuning LLMs", "Natural Language Processing", 
+      "AI Ethics", "Model Evaluation", "AI Integration", "Foundry"]
     }
   ],
   "languages": [

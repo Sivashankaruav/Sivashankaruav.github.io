@@ -1,4 +1,5 @@
 import { el, mount } from '../utils.js';
+import { createFormspreeForm } from '../formspree.js';
 
 export function renderContact(profile, siteConfig) {
   const cfg = siteConfig.integrations.contactForm;
@@ -16,15 +17,16 @@ export function renderContact(profile, siteConfig) {
 
   let formNode;
   if (cfg.enabled) {
-    formNode = el('form', { class: 'contact-form', action: cfg.endpoint, method: 'POST' }, [
-      el('label', { for: 'contact-name' }, 'Name'),
-      el('input', { id: 'contact-name', name: 'name', type: 'text', required: '' }),
-      el('label', { for: 'contact-email' }, 'Email'),
-      el('input', { id: 'contact-email', name: 'email', type: 'email', required: '' }),
-      el('label', { for: 'contact-message' }, 'Message'),
-      el('textarea', { id: 'contact-message', name: 'message', rows: '5', required: '' }),
-      el('button', { class: 'btn btn--primary', type: 'submit' }, 'Send message'),
-    ]);
+    formNode = createFormspreeForm(cfg, {
+      id: 'contact',
+      fields: [
+        { name: 'name', label: 'Name', autocomplete: 'name', required: true },
+        { name: 'email', label: 'Email', type: 'email', autocomplete: 'email', required: true },
+        { name: 'message', label: 'Message', required: true },
+      ],
+      submitLabel: 'Send message',
+      successMessage: 'Thank you! Your message has been sent.',
+    });
   } else {
     formNode = el('div', { class: 'contact-form' }, [
       el('p', {}, 'The contact form isn\u2019t wired up yet — drop me a line directly and I\u2019ll get back to you.'),

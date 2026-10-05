@@ -26,23 +26,23 @@
     "_comment": "All integrations are free-tier, serverless, client-side services. Set enabled=true after creating your own account/endpoint so no secrets ever need to live in this repo.",
     "contactForm": {
       "provider": "formspree",
-      "enabled": false,
-      "endpoint": "https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID",
+      "enabled": true,
+      "endpoint": "https://formspree.io/f/xqpekkzv",
       "fallbackMailto": "sivashankaryadav@outlook.com",
       "instructions": "Create a free form at https://formspree.io (no card required), copy the form endpoint URL, paste it above and set enabled=true."
     },
     "testimonialForm": {
       "provider": "formspree",
-      "enabled": false,
-      "endpoint": "https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID",
+      "enabled": true,
+      "endpoint": "https://formspree.io/f/moejqqqj",
       "fallbackMailto": "sivashankaryadav@outlook.com",
       "instructions": "Use a second free Formspree form (or reuse the contact one) so testimonial submissions land in your inbox for review before you add them to data/testimonials.json."
     },
     "hitCounter": {
-      "provider": "hits.seeyoufarm",
-      "enabled": true,
-      "targetUrl": "https://sivashankaruav.github.io",
-      "instructions": "Free badge-based hit counter, no signup needed. Keep targetUrl unchanged to preserve the historical count already accumulated on the old site."
+      "provider": "formspree",
+      "enabled": false,
+      "targetUrl": "https://formspree.io/f/xvkzoooq",
+      "instructions": "Disabled: Formspree receives form submissions, not visitor counts. To enable the existing badge renderer, use provider=seeyoufarm and set targetUrl to your portfolio URL, not a Formspree endpoint."
     }
   }
 }
