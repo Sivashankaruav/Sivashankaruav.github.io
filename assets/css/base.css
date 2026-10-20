@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--color-header); color: var(--color-text-soft); padding: 32px 0; text-align: center; font-size: 0.82rem; }
-.site-footer .hit-counter { margin-top: 12px; }
+.site-footer .hit-counter { white-space: nowrap; }
 .site-footer a { color: var(--color-text-on-dark); }
 
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }

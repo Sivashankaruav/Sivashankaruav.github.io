@@ -78,11 +78,12 @@ Configured centrally in `data/site.json -> integrations`:
   they remain unpublished until you manually add them to the JSON content.
   Email links remain available if delivery fails. Check the Formspree dashboard
   for recipient verification, domain restrictions and free-tier quota.
-- **Hit counter** (`hitCounter`) — currently disabled because Formspree is not
-  a visitor-counter service. The existing renderer uses a `hits.seeyoufarm.com`
-  badge; to use it, set `provider: "seeyoufarm"`, set `targetUrl` to your
-  public portfolio URL and enable it only after checking service availability.
-  Do not send automatic page-view submissions to Formspree.
+- **Hit counter** (`hitCounter`) — uses the
+  [9trees/daily](https://github.com/9trees/daily) counter API. Each page load
+  sends one `POST` to `endpoint` with `{"page": "sivashankaruav"}` and shows
+  today's and total hits in the footer. The page code must be registered and
+  active in the Django admin, and `https://sivashankaruav.github.io` must be
+  listed in `HIT_COUNTER_ALLOWED_ORIGINS`. Counts every load (not unique visitors).
 
 ## 4. File map
 

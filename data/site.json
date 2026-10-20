@@ -39,10 +39,11 @@
       "instructions": "Use a second free Formspree form (or reuse the contact one) so testimonial submissions land in your inbox for review before you add them to data/testimonials.json."
     },
     "hitCounter": {
-      "provider": "formspree",
-      "enabled": false,
-      "targetUrl": "https://formspree.io/f/xvkzoooq",
-      "instructions": "Disabled: Formspree receives form submissions, not visitor counts. To enable the existing badge renderer, use provider=seeyoufarm and set targetUrl to your portfolio URL, not a Formspree endpoint."
+      "provider": "daily",
+      "enabled": true,
+      "endpoint": "https://sivashankar.pythonanywhere.com/api/hits/",
+      "page": "sivashankaruav",
+      "instructions": "Uses the 9trees/daily hit counter API. The page code must be registered and active in the Django admin, and https://sivashankaruav.github.io must be in HIT_COUNTER_ALLOWED_ORIGINS. One POST is sent per page load and returns today/total counts."
     }
   }
 }
